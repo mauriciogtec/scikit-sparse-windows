@@ -41,6 +41,7 @@ INCLUDE_DIRS = [
     sys.prefix + "/include",
     # Debian's suitesparse-dev installs to
     # /usr/include/suitesparse
+    sys.prefix + "/Library/include/suitesparse",
     "/usr/include/suitesparse",
 ]
 LIBRARY_DIRS = []
